@@ -1,7 +1,48 @@
+  a{
+  text-decoration: none;
+  color: inherit;
+  }
+
 h1,h2,h3,h4,h5,h6{
   color: red;
 }
-#main{
+.main-header{
+  margin-top: 25%;
+}
+
+.container{
+  max-width: 900px;
+  text-align: center;
+}
+.indent{
+  padding-left: 2%;
+  text-align: left;
+  color: rgb(88, 88, 88);
   border-left: 2px red solid;
-  
+  padding-bottom: 0;
+
+}
+
+
+.indent:hover{
+  color:rgba(8, 7, 7, 0.87);
+
+}
+.social-icons{
+  display: inline-block;
+  font-size:20px;
+  width:30px;
+  height:30px;
+  position: relative;
+}
+
+.social-icons:hover{
+  color: red;
+}
+@media only screen and (max-width:549px){
+  .indent{
+    border: none;
+    padding-left: o;
+  }
+
 }
