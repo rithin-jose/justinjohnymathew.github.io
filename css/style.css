@@ -53,6 +53,11 @@ h1,h2,h3,h4,h5,h6{
     width 40px;
     padding-left: 0;
     text-align: center;
+    margin-top: 30px;
+  }
+  .main-header{
+    margin-top: 10%;
+
   }
 
 }
