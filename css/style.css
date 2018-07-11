@@ -6,9 +6,7 @@
 h1,h2,h3,h4,h5,h6{
   color: red;
 }
-.main-header{
-  margin-top: 25%;
-}
+
 
 .container{
   max-width: 900px;
@@ -32,17 +30,35 @@ h1,h2,h3,h4,h5,h6{
   display: inline-block;
   font-size:20px;
   width:30px;
-  height:30px;
+  height:20px;
   position: relative;
 }
 
 .social-icons:hover{
   color: red;
 }
+.navbar-list{
+  list-style:none;
+  margin-bottom: 0;
+}
+.navbar-item{
+  float:left;
+  margin-left:20px;
+  margin-right: 20px;
+  position: relative;
+  }
 @media only screen and (max-width:549px){
   .indent{
     border: none;
-    padding-left: o;
+    width 40px;
+    padding-left: 0;
+    text-align: center;
   }
 
+}
+@media only screen and (min-width:550px) {
+  .main-header{
+    margin-top: 25%;
+    min-height: 100vh;
+  }
 }
