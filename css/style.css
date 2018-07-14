@@ -47,6 +47,9 @@ h1,h2,h3,h4,h5,h6{
   margin-right: 20px;
   position: relative;
   }
+.button:hover{
+  color: red;
+}
 @media only screen and (max-width:549px){
   .indent{
     border: none;
@@ -64,6 +67,7 @@ h1,h2,h3,h4,h5,h6{
 @media only screen and (min-width:550px) {
   .main-header{
     margin-top: 25%;
-    min-height: 100vh;
+
   }
+
 }
