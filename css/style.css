@@ -1,4 +1,11 @@
-  a{
+body{
+  background-image: url("../images/background.png");
+  background-size: cover;
+  background-attachment: fixed;
+ 
+}
+
+ a{
   text-decoration: none;
   color: inherit;
   }
@@ -11,11 +18,12 @@ h1,h2,h3,h4,h5,h6{
 .container{
   max-width: 900px;
   text-align: center;
+  
 }
-.indent{
+.indent{ 
   padding-left: 2%;
   text-align: left;
-  color: rgb(88, 88, 88);
+  color:#000;
   border-left: 2px red solid;
   padding-bottom: 0;
 
@@ -50,6 +58,9 @@ h1,h2,h3,h4,h5,h6{
 .button:hover{
   color: red;
 }
+.skills{
+  text-align: center;
+}
 @media only screen and (max-width:549px){
   .indent{
     border: none;
@@ -69,5 +80,6 @@ h1,h2,h3,h4,h5,h6{
     margin-top: 25%;
 
   }
+  
 
 }
