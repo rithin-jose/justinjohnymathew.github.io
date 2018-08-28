@@ -2,11 +2,11 @@
     max-width: 960px;
     margin: auto;
 }
-.a{
+a{
     color:black;
     text-decoration: none;
 }
-.a:hover{
+a:hover{
     text-decoration:none;
 
 }
@@ -20,7 +20,7 @@
     text-align: right;
 }
 .main-section{
-    margin-top:13%;
+    margin-top:7%;
 }
 .my-img{
     max-width: 150px;
@@ -30,10 +30,10 @@
 .main-section-heading{
     text-align:center;
     font-size: 40px;
-    font-family: 'Coda', cursive;
+    font-family: 'PT Sans', sans-serif;
 }
 .days{
-    font-family: 'Saira Condensed', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-size: 20px;
     color: red;
 }
@@ -43,10 +43,38 @@
     display: inline-block;
     width: 40px;
     height: 30px;
-    font-size: 25px;
+    font-size: 17px;
     text-align: center;
     color:black;
 }
 .social-icons:hover{
     color:red;
+}
+.about{
+    padding:0px 90px 0px 90px;
+    font-family: 'PT Sans', sans-serif;
+
+}
+@media only screen and (max-width:549px)
+{
+    .about{
+        padding:0px 10px 0px 10px;
+    }
+}
+.skills{
+    margin-top: 20px;
+    
+}
+.skills-heading{
+    font-family: 'PT Sans', sans-serif;
+    font-size:20px;
+    padding-bottom:5px;
+
+}
+.skills-div{
+    display:flex;
+    flex-wrap: wrap;
+}
+.skill-icon{
+    font-size: 50px;
 }
